@@ -1,0 +1,34 @@
+# Expecttion for 3 worker
+# Single Process 
+14.029326 seconds (86 allocations: 3.281 KiB)
+14.028325 seconds (85 allocations: 2.219 KiB)
+14.027776 seconds (193 allocations: 9.906 KiB)
+
+# Multi Process 
+11.292361 seconds (942.38 k allocations: 48.105 MiB, 0.82% gc time, 24.71% compilation time: 9% of which was recompilation)
+ 1.079712 seconds (39.26 k allocations: 2.017 MiB, 5.63% compilation time)
+ 1.075438 seconds (34.41 k allocations: 1.746 MiB, 5.14% compilation time)
+
+ # Expecttion for 10 worker
+# single process 
+11.022054 seconds (67 allocations: 1.750 KiB)
+11.020228 seconds (68 allocations: 2.312 KiB)
+11.022018 seconds (69 allocations: 2.609 KiB)
+# Multi process 
+ 9.369056 seconds (942.07 k allocations: 48.088 MiB, 0.14% gc time, 20.92% compilation time: 6% of which was recompilation)
+ 1.079805 seconds (33.03 k allocations: 1.663 MiB, 5.56% compilation time)
+ 1.291139 seconds (84.01 k allocations: 4.372 MiB, 0.96% gc time, 12.50% compilation time)
+
+
+ ########################
+ # Hello world 
+ # single process 
+  0.000348 seconds (88 allocations: 2.516 KiB)
+  0.000360 seconds (88 allocations: 2.516 KiB)
+  0.000254 seconds (86 allocations: 1.656 KiB)
+
+  # Multi process
+  0.090601 seconds (33.27 k allocations: 1.940 MiB, 64.79% compilation time)
+  0.098756 seconds (34.27 k allocations: 1.868 MiB, 58.39% compilation time)
+  0.076109 seconds (38.21 k allocations: 1.949 MiB, 80.25% compilation time)
+  

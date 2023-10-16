@@ -1,0 +1,8 @@
+multi_axpy!() -- Use Multi-Threading, 32 bit, in-place 
+0.150314 seconds (46.80 k allocations: 2.478 MiB, 46.11% compilation time)
+2 nd time 
+0.067178 seconds (27 allocations: 2.188 KiB)
+3rd time 
+0.075924 seconds (29 allocations: 2.250 KiB)
+4 th time 
+0.069651 seconds (27 allocations: 2.188 KiB)
